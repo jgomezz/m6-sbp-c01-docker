@@ -5,7 +5,7 @@ docker images
 ```
 Crear una imagen
 ```
-docker pull nginx:natural
+docker pull nginx:latest
 ```
 
 

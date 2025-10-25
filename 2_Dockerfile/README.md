@@ -1,5 +1,5 @@
 --
-## Dockerfile
+## Dockerfile Básico
 
 ### Crear un Dockerfile básico
 ```
@@ -27,7 +27,7 @@ docker image inspect myapp:1.0
 ```
 
 -
-## Crear un Dockerfile con un programa de Java
+## Dockerfile para un programa en Java
 
 ### Estructura del proyecto
 ```

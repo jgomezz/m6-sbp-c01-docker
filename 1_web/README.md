@@ -19,6 +19,11 @@ docker logs web
 docker logs -f web
 ```
 
+Entrar al contenedor
+```
+docker exec -it web /bin/bash
+```
+
 Detener contenedor
 ```
 docker stop web

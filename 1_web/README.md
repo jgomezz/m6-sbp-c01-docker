@@ -8,7 +8,7 @@ Crear una imagen
 docker pull nginx:latest
 ```
 
-Ejecutar una imagen
+Ejecutar una contenedor
 ```
 docker run -d -p 8010:80 --name web  nginx
 ```

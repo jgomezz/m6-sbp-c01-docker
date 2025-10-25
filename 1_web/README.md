@@ -64,7 +64,13 @@ docker run -d -p 8040:80 --name web4 nginx
     └── index.html
 ```
 
-
+Asociar a directorio wwww
 ```
-docker run -d -p 8010:80 --name web -v /Users/jgomez/git_codigo/m6-sbp-c01-docker/1_web/www:/usr/share/nginx/html:ro nginx
+docker run -d -p 8010:80 --name web -v /Users/jgomez/git_codigo/m6-sbp-c01-docker/1_web/www:/usr/
+share/nginx/html:ro nginx
+```
+
+Lo mismo pero usando el comando pwd ( solo para macbook y linux)
+```
+docker run -d -p 8010:80 --name web -v $(pwd)/www:/usr/share/nginx/html:ro nginx
 ```

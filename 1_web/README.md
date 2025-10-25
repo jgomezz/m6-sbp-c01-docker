@@ -12,6 +12,13 @@ Ejecutar un contenedor
 ```
 docker run -d -p 8010:80 --name web  nginx
 ```
+
+Ver logs
+```
+docker logs web
+docker logs -f web
+```
+
 Detener contenedor
 ```
 docker stop web
@@ -27,7 +34,8 @@ Elminar una imagen
 docker rmi nginx
 ```
 
-Ejercicio
+-
+#Ejercicio
 
 Crear 4 contenedores de la imagen nginx:latest, que apunten
 a los puertos 8010, 8020, 8030, 8040 y que se llamen web1, web2, 

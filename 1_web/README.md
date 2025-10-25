@@ -19,7 +19,7 @@ docker logs web
 docker logs -f web
 ```
 
-Entrar al contenedor
+Entrar al contenedor ( para salir con exit)
 ```
 docker exec -it web /bin/bash
 ```

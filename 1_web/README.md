@@ -55,3 +55,16 @@ docker run -d -p 8030:80 --name web3 nginx
 docker run -d -p 8040:80 --name web4 nginx
 
 ```
+
+## Personalizar un site
+
+```
+├── README.md
+└── www.  ******
+    └── index.html
+```
+
+
+```
+docker run -d -p 8010:80 --name web -v /Users/jgomez/git_codigo/m6-sbp-c01-docker/1_web/www:/usr/share/nginx/html:ro nginx
+```

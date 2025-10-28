@@ -62,7 +62,12 @@ docker rm myappjava01
 docker logs myappjava01
 docker logs -f myappjava01
 ```
-## Entrar al terminal del contenedor
+## Entrar al terminal del contenedor ( Host Linux o Mac )
 ```
 docker exec -it myappjava01 /bin/bash
+```
+
+## Entrar al terminal del contenedor ( Host Windows o Linux o Mac )
+```
+docker exec -it myappjava01 bash
 ```

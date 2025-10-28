@@ -52,7 +52,17 @@ docker build -t myappjava:1.0 .
 ```
 docker run -d --name myappjava01 myappjava:1.0
 ```
+### Borrar
+```
+docker rm myappjava01
+```
+
 ### Ver los logs del contenedor
 ```
 docker logs myappjava01
+docker logs -f myappjava01
+```
+## Entrar al terminal del contenedor
+```
+docker exec -it myappjava01 /bin/bash
 ```
